@@ -3,7 +3,8 @@ html {
   font-family: 'Signika', sans-serif;
   font-size: 1em;
 }
-body {
+body
+{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -15,16 +16,18 @@ body {
   border: 2px solid #FAFAFA;
   border-radius: 3px;
 
-  background-color: #227722;
+  background-color: #000000;
 }
-.userInput{
+.userInput
+{
 	display: flex;
 	flex-flow: row wrap;
 
   list-style-type: none;
   padding-left: 0;
 }
-.userInput li {
+.userInput li
+{
 	display: flex;
 	flex-flow: row wrap;
 
@@ -41,7 +44,11 @@ body {
 
   background: #222222;
 }
-.userInput a {
+input[type="number" i] {
+  width: 100%;
+}
+.userInput a
+{
   margin: auto;
   padding: 3px;
 
@@ -58,20 +65,26 @@ body {
 #newMaze {
 	background: #227722;
 }
-#newRnd {
-	background: #777722;
+#newRnd
+{
+	background: #ada312;
 }
-#delMaze {
+#delMaze
+{
 	background: #772222;
 }
-.mazes {
+.mazes
+{
 	display: flex;
 	flex-flow: row wrap;
+
+  flex-basis: 100%;
 
   list-style-type: none;
   padding-left: 0;
 }
-.mazes li {
+.mazes li
+{
 	margin: auto;
 	padding: 3px;
 }
