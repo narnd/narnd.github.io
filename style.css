@@ -1,0 +1,77 @@
+html {
+  background-color: #222222;
+  font-family: 'Signika', sans-serif;
+  font-size: 1em;
+}
+body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+  /* max-width: 800px; */
+
+  padding: 1px 10px;
+
+  border: 2px solid #FAFAFA;
+  border-radius: 3px;
+
+  background-color: #227722;
+}
+.userInput{
+	display: flex;
+	flex-flow: row wrap;
+
+  list-style-type: none;
+  padding-left: 0;
+}
+.userInput li {
+	display: flex;
+	flex-flow: row wrap;
+
+	width: 55px;
+	height: 45px;
+
+	padding: 5px;
+
+ 	border: 1px solid #FAFAFA;
+ 	border-radius: 3px;
+
+  color: #FAFAFA;
+  letter-spacing: .09em;
+
+  background: #222222;
+}
+.userInput a {
+  margin: auto;
+  padding: 3px;
+
+  border: 1px solid #FAFAFA;
+  border-radius: 2px;
+
+  color: #FAFAFA;
+  text-decoration: none;
+  letter-spacing: .09em;
+  font-weight: bold;
+
+  background: #222277;
+}
+#newMaze {
+	background: #227722;
+}
+#newRnd {
+	background: #777722;
+}
+#delMaze {
+	background: #772222;
+}
+.mazes {
+	display: flex;
+	flex-flow: row wrap;
+
+  list-style-type: none;
+  padding-left: 0;
+}
+.mazes li {
+	margin: auto;
+	padding: 3px;
+}
